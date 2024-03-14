@@ -11,6 +11,7 @@ const Home = () => {
             name="text"
             className={styles.input}
             placeholder="Type here..."
+            autoComplete="true"
           ></input>
         </div>
         <div>
