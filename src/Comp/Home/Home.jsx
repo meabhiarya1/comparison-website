@@ -18,6 +18,23 @@ const Home = () => {
           <button>Search</button>
         </div>
       </div>
+      <div className={styles.paraGraph}>
+        <h2 className={styles.first}>
+          Lorem{" "}
+          <span className={styles.second}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+            sapiente recusandae, est nisi, sed veniam earum magni nihil sit quae
+            consectetur eaque et? Voluptas, corporis.
+          </span>
+          aspernatur iusto esse saepe quis{" "}
+          <span className={styles.second}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+            sapiente recusandae, est nisi, sed
+          </span>
+          veniam earum magni nihil sit quae consectetur eaque et? Voluptas,
+          corporis.
+        </h2>
+      </div>
     </div>
   );
 };
