@@ -1,0 +1,64 @@
+.parentDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  width: 100vw;
+  /* margin-left: 2rem; */
+}
+
+.childDiv {
+    display: flex;
+}
+
+.input {
+  border: none;
+  padding: 20px;
+  border-radius: 1rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background: #e8e8e8;
+  box-shadow: 20px 20px 60px #8e8e8e, -20px -20px 60px #ffffff;
+  transition: 0.3s;
+  width: 35vw;
+}
+
+.input:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+}
+
+button {
+  color: #090909;
+  padding: 19px;
+  font-size: 15px;
+  border-radius: 1rem;
+  background: #d7d5d5;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  transition: all 0.3s;
+  box-shadow: 20px 20px 60px #929191;
+  /* box-shadow: none; */
+}
+
+.button:hover {
+  outline-color: #000000;
+  background: #7c7c7c;
+  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+}
+
+button:active {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #787878;
+  transition: 0.3s;
+}
+
+/* @media (max-width: ) {
+    
+} */
